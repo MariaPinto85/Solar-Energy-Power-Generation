@@ -1,0 +1,22 @@
+Structure of Dataset
+
+The dataset retrieved from Kaggle, titled "Solar Energy Power Generation Dataset," consists of 21 variables that capture various environmental, atmospheric, and operational factors relevant to solar power generation. This dataset is suitable for exploring the correlations between weather conditions and photovoltaic (PV) power output, providing a foundation for predictive analysis and optimization in solar energy production.
+
+Dataset Summary:
+
+Rows: 4,213 observations, each representing a unique timestamp or instance of collected environmental data.
+Data Types: Mostly numeric variables, covering continuous meteorological and solar energy parameters essential for solar power output analysis.
+This dataset enables detailed examination of the relationship between environmental factors and solar power generation, useful for forecasting, grid management, and energy market analysis.
+
+New Variables
+
+In addition to the original variables in the solar energy dataset, several interaction features have been created to enrich the analysis and capture essential environmental factors that may impact solar power generation:
+
+temp_humidity_index: This variable is an approximation of the combined effect of temperature and humidity, offering an indicator of perceived warmth. This index allows us to study how perceived warmth, affected by both temperature and humidity, may influence solar power generation efficiency.
+
+effective_solar_radiation: This variable provides an estimate of solar radiation adjusted for cloud cover, which is essential in assessing the effective solar energy available at the surface. By accounting for cloud cover, this feature helps in analyzing the actual solar radiation that reaches the solar panels, offering a more accurate measure of potential power generation.
+
+total_cloud_cover: This variable represents the aggregate cloud cover by averaging three cloud cover layers: high, medium, and low. This aggregate measure provides a holistic view of the cloud cover across different atmospheric layers, enhancing the accuracy of solar radiation assessments and its impact on power generation.
+
+These newly created variables add valuable interaction and aggregation features to the dataset, allowing for more comprehensive modeling and forecasting of solar power output under varying environmental conditions.
+
