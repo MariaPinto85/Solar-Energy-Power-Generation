@@ -19,7 +19,7 @@ Data Preprocessing: Cleaning, handling null values, and identifying outliers to 
 Feature Engineering: Creating new features like temp_humidity_index and effective_solar_radiation to improve model accuracy.
 Exploratory Data Analysis (EDA): Visualizing relationships between variables, such as solar radiation and cloud cover, and their impact on power generation.
 
-## Model Development:
+## Model Development:
 Algorithms Used: Random Forest Regressor, Gradient Boosting Regressor, and XGBoost Regressor.
 Hyperparameter Tuning: Grid and Randomized Search for optimizing model parameters to achieve the best results.
 Model Evaluation: Evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). Gradient Boosting showed the best RMSE, indicating good generalization on unseen data.
@@ -40,7 +40,7 @@ Run the Analysis: Load the dataset, preprocess the data, and run the models by f
 Customizable Parameters: Modify model parameters or try different features in the notebook to experiment with different forecasting results.
 Future Work
 
-## Further improvements can be made by:
+## Further improvements can be made by:
 
 Exploring additional machine learning algorithms.
 Incorporating more advanced feature engineering techniques.
